@@ -1,0 +1,63 @@
+@media screen and (max-width: 480px){
+  body{
+    height: 100vh;
+  }
+  
+  .container {
+    width: 100vw;
+    padding: 20px 10px;
+  }
+  
+  .container header {
+    display: grid;
+  }
+  
+  header h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  header .column span {
+    margin-right: 2px;
+    font-size: 1rem;
+  }
+  
+  .keys-check input {
+    width: 13vw;
+    height: 3vh;
+    border-radius: 30px;
+  }
+  
+  .keys-check input::before {
+    width: 4vw;
+    height: 2vh;
+    border-radius: inherit;
+  }
+  
+  .piano-keys {
+    margin-top: 10%;
+  }
+  
+  .piano-keys .white {
+    width: 16vw;
+    height: 20vh;
+  }
+  
+  .piano-keys .black {
+    width: 8vw;
+    height: 12vh;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px){
+  .container {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .container {
+    width: 100vw;
+  }
+}
